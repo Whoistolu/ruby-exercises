@@ -52,3 +52,26 @@ Always code as if the person who ends up maintaining your code will be a violent
 The most basic thing you can do to write clean, maintainable code is to name your variables properly. So get into this habit early to avoid psychopath programmers coming after you.
 
 Variable names should always be lowercase, and multiple words that make up a variable name should be split by an underscore. This is known as snake_case.
+
+
+Our programming so far has been very literal.
+
+A 1 is just a 1.
+
+The string "dog" is just the word "dog".
+
+These objects in Ruby are what they are. But take the quotation marks out of "dog". Then, insert an equals sign =
+
+And finally, on that same line, provide a data object on the the right side of that equals sign.
+
+dog = "cat"
+We have just declared a variable with the name of dog. This quote-less (also referred to as a bareword) term, dog, is not a string. But it has been assigned to a string. And that string is "cat":
+
+dog = "cat"
+puts dog
+#=> cat
+The variable dog refers to the value "cat". This means that anything that interacts with the variable dog is essentially interacting with the value "cat":
+
+dog = "cat"
+puts(dog + "food")   
+#=> catfood
