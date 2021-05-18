@@ -36,3 +36,7 @@ def odd?(number)
 end
 
 print "Hello World"
+puts ""
+p add(2, 3)
+puts ""
+p multiply(786, 92)
