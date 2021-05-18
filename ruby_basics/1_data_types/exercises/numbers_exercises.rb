@@ -40,3 +40,15 @@ puts ""
 p add(2, 3)
 puts ""
 p multiply(786, 92)
+p add(4, 78)
+
+How to Name Variables
+Ruby is a language that aims to be natural to read and easy to write. Remember this when you’re naming your variables. The name should, as clearly as possible, describe what the value of the variable represents.
+
+Naming variables clearly will pay dividends when you review your code months after you’ve written it, when you can no longer remember what that variable was designed to store. From now on, when naming your variables, remember the following quote by John Woods:
+
+Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live.
+
+The most basic thing you can do to write clean, maintainable code is to name your variables properly. So get into this habit early to avoid psychopath programmers coming after you.
+
+Variable names should always be lowercase, and multiple words that make up a variable name should be split by an underscore. This is known as snake_case.
