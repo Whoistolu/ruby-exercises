@@ -54,9 +54,3 @@ p divide(400, 20)
 p remainder(30, 8)
 
 p float_division(9.0, 3)
-
-p string_to_number("come")
-
-p even?(23)
-
-p odd?(32)
