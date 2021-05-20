@@ -35,21 +35,6 @@ def odd?(number)
   # return true if the number is odd (hint: use integer's odd? method)
 end
 
-print "Hello World"
-puts ""
-p add(2, 3)
-puts multiply(6, 92)
-p add(4, 78)
-dog = "cat"
-puts (dog + " food")
+gets even?(200)
 
-a = "supercalifragilistic"
-b = "expialidocious"
-puts "The length of the words #{a} and #{b} is:"
-puts a.length + b.length
-puts "#{a} is #{a.length - b.length} characters longer than #{b}"
-
-puts "The length of the words #{'supercalifragilistic'} and #{'expialidocious'} is:"
-puts "supercalifragilistic".length + "expialidocious".length
-puts "supercalifragilistic is #{'supercalifragilistic'.length - 'expialidocious'.length} characters longer than expialidocious"
-
+ "I will be printed to the console!"
