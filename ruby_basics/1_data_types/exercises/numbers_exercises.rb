@@ -79,4 +79,41 @@ You already know that conditional statements check expressions for a true or fal
   
   The statement to be evaluated can be anything that returns true or false. It could be a mathematical expression, a variable value, or a call to a method. Only if the expression evaluates to true does the code inside the block run.
 
-  
+
+Adding “else” and “elsif”
+
+We often want to check a condition and run some code if it’s true but then run some other code if it’s false. This is done with an if...else statement.
+
+if attack_by_land == true
+  puts "release the goat"
+else
+  puts "release the shark"
+end
+Oh yeah! Protected on land and sea.
+
+But what about if we’re attacked by air? We need yet another conditional check. Enter the if...elsif...else statement!
+
+if attack_by_land == true
+  puts "release the goat"
+elsif attack_by_sea == true
+  puts "release the shark"
+else
+  puts "release Kevin the octopus"
+end
+Ain’t nobody pillaging my land!
+
+You can have as many elsif expressions as you want. The else clause is optional, but you usually want to provide some default value in case none of the previous expressions evaluate to true.
+
+Boolean Logic
+To determine whether an expression evaluates to true or false, you’ll need a comparison operator. There are several provided by Ruby:
+
+== (equals) returns true if the values compared are equal.
+
+5 == 5 #=> true
+5 == 6 #=> false
+!= (not equal) returns true if the values compared are not equal.
+
+5 != 7 #=> true
+5 != 5 #=> false
+
+
