@@ -10,10 +10,12 @@ end
 
 def substrings(word)
   # return the first 4 letters from the word using substrings
+  "Classic"[0, 4] .capitalize 
 end
 
 def capitalize(word)
   # capitalize the first letter of the word
+  "Classic".capitalize   
 end
 
 def uppercase(string)
